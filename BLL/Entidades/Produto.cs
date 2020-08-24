@@ -14,14 +14,17 @@ namespace BLL.Entidades
         //    codigo = value;
        // }
 
-         public int Codigo { get; set; }
         // {
         //     get { return codigo; }
         //     set { codigo = value; }
         // }
 
+        public int Codigo { get; set; }
+
         public String Nome { get; set; }
+
         public decimal Preco { get; set; }
+
         public override string ToString()
         {
             return "Produto { Cod: " + Codigo + " Nome: " + Nome +
